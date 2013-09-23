@@ -21,10 +21,8 @@ typedef NS_ENUM(NSInteger, CalendarRangeState) {
 @property (nonatomic, copy) NSDate *startDay;
 @property (nonatomic, copy) NSDate *endDay;
 
-@property (nonatomic, strong, readonly) NSTimeZone *timeZone;
 @property (nonatomic, assign, readonly) CalendarRangeState rangeState;
 
-- (id)initWithTimeZone:(NSTimeZone *)timeZone;
 - (void)updateWithDate:(NSDate *)date;
 - (void)resetCalendarRange;
 

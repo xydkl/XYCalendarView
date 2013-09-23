@@ -17,6 +17,7 @@
 		07854B4417EFDC26001CA89C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07854B4217EFDC26001CA89C /* InfoPlist.strings */; };
 		07854B4617EFDC26001CA89C /* XYCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07854B4517EFDC26001CA89C /* XYCalendarViewTests.m */; };
 		07854B5117EFDCB3001CA89C /* XYCalendarRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 07854B5017EFDCB3001CA89C /* XYCalendarRange.m */; };
+		07854B5417EFEABE001CA89C /* NSDate+XYCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07854B5317EFEABE001CA89C /* NSDate+XYCalendar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		07854B4517EFDC26001CA89C /* XYCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCalendarViewTests.m; sourceTree = "<group>"; };
 		07854B4F17EFDCB3001CA89C /* XYCalendarRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYCalendarRange.h; sourceTree = "<group>"; };
 		07854B5017EFDCB3001CA89C /* XYCalendarRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYCalendarRange.m; sourceTree = "<group>"; };
+		07854B5217EFEABE001CA89C /* NSDate+XYCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XYCalendar.h"; sourceTree = "<group>"; };
+		07854B5317EFEABE001CA89C /* NSDate+XYCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XYCalendar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				07854B3017EFDC26001CA89C /* XYCalendarView.m */,
 				07854B4F17EFDCB3001CA89C /* XYCalendarRange.h */,
 				07854B5017EFDCB3001CA89C /* XYCalendarRange.m */,
+				07854B5217EFEABE001CA89C /* NSDate+XYCalendar.h */,
+				07854B5317EFEABE001CA89C /* NSDate+XYCalendar.m */,
 				07854B2C17EFDC26001CA89C /* Supporting Files */,
 			);
 			path = XYCalendarView;
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07854B5117EFDCB3001CA89C /* XYCalendarRange.m in Sources */,
+				07854B5417EFEABE001CA89C /* NSDate+XYCalendar.m in Sources */,
 				07854B3117EFDC26001CA89C /* XYCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
