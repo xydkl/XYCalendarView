@@ -18,13 +18,12 @@ typedef NS_ENUM(NSInteger, CalendarRangeState) {
 
 @interface XYCalendarRange : NSObject
 
-@property (nonatomic, copy) NSDate *startDay;
-@property (nonatomic, copy) NSDate *endDay;
+@property (nonatomic, readonly) NSDate *startDay;
+@property (nonatomic, readonly) NSDate *endDay;
 
 @property (nonatomic, assign, readonly) CalendarRangeState rangeState;
 
 - (void)updateWithDate:(NSDate *)date;
-- (void)resetCalendarRange;
 
-
+- (BOOL)containsDate:(NSDate *)date;
 @end
